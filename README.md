@@ -29,9 +29,9 @@ O arquivo `insurance.csv` contém as seguintes colunas:
 
 A análise e o modelo de Regressão Linear revelaram os seguintes insights:
 
-*   🚭 **Ser fumante é o fator de maior impacto**, aumentando o custo do seguro em aproximadamente **$23.600**.
-*   🎂 A **idade** e o **IMC** também são fatores significativos, contribuindo positivamente para o aumento dos custos.
-*   📊 O modelo final alcançou um **R² de 0.78** no conjunto de teste, indicando que ele consegue explicar 78% da variabilidade dos custos.
+*   🚭 **Fator Mais Importante:** A característica **`smoker_yes`** tem o maior coeficiente positivo (**9558**), confirmando que ser fumante é o principal fator que eleva o custo.
+*   🎂 **Outros Fatores Relevantes:** A **idade (`age`)** e o **IMC (`bmi`)** também são muito significativos, com coeficientes de **3615** e **2036**, respectivamente.
+*   📊 **Performance do Modelo:** O modelo final alcançou um **R² de 0.78** no conjunto de teste, indicando que ele consegue explicar 78% da variabilidade dos custos.
 
 ## 🚀 Como Executar
 
